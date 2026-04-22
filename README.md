@@ -5,72 +5,72 @@
 ---
 
 ## 🚀 Overview
-This project converts raw sales data into clear, interactive insights using Power BI.  
-It enables users to track performance, compare metrics, and explore trends through dynamic visualizations.
+This project transforms raw sales data into meaningful insights using interactive Power BI visualizations.  
+It helps in tracking performance, comparing metrics, and identifying trends efficiently.
 
 ---
 
 ## 📌 Problem Statement
-Sales data is often complex and scattered, making it difficult to:
-- Monitor key performance metrics  
-- Compare sales across managers and products  
-- Identify trends over time  
+Sales data is complex and difficult to analyze manually. Without proper visualization:
+- Trends remain hidden  
+- Performance comparison is difficult  
+- Decision-making becomes slow  
 
-This dashboard solves the problem by providing **centralized, visual, and interactive analysis**.
+This dashboard provides **clear, interactive, and centralized analysis**.
 
 ---
 
 ## 🎯 Objectives
-- Analyze sales performance across multiple dimensions  
-- Track KPIs like profit, sales, and transactions  
-- Compare performance by sales managers and products  
-- Enable filtering for detailed exploration  
+- Analyze sales across multiple dimensions  
+- Track KPIs like sales, profit, and transactions  
+- Compare performance by managers and products  
+- Enable interactive data exploration  
 
 ---
 
 ## 🧠 Key Insights
-- 📈 Sales and profit vary significantly across **sales managers**  
-- 🛍️ Certain products contribute higher profit margins  
-- 🌍 Country-wise sales show uneven distribution  
-- 📅 Monthly trends highlight fluctuations in demand  
-- 🎯 Filters enable quick drill-down into specific segments  
+- 📈 Sales performance varies across **sales managers**  
+- 🛍️ Certain products generate higher profit contribution  
+- 🌍 Sales distribution differs by country  
+- 📅 Monthly trends show fluctuations in demand  
+- 🎯 Filters allow quick drill-down analysis  
 
 ---
 
 ## 📊 Dashboard Preview
 
 ### 🔹 Full Dashboard Overview
-![Dashboard Overview](screenshots/dashboard_overview.png)
+![Dashboard Overview](screenshots/dashboard_overview.jpg)
 
 ---
 
 ## 📈 Detailed Analysis
 
 ### 📌 KPI Summary
-![KPI Cards](screenshots/kpi_cards.png)
+![KPI Cards](screenshots/kpi_cards.jpg)
 
 ### 👥 Sales Performance by Manager
-![Sales Manager Analysis](screenshots/sales_manager_analysis.png)
+![Sales Manager Analysis](screenshots/sales_manager_analysis.jpg)
 
 ### 📅 Monthly Quantity Analysis
-![Monthly Quantity](screenshots/monthly_quantity.png)
+![Monthly Quantity](screenshots/monthly_quantity.jpg)
 
 ### 🍩 Profit Distribution by Product
-![Product Profit](screenshots/product_profit.png)
+![Product Profit](screenshots/product_profit.jpg)
 
 ### 🌍 Geographic Sales Distribution
-![Map View](screenshots/map_view.png)
+![Map View](screenshots/map_view.jpg)
 
 ### 📊 Sales vs Profit by Country
-![Country Sales Profit](screenshots/country_sales_profit.png)
+![Country Sales Profit](screenshots/country_sales_profit.jpg)
 
 ### 🎛️ Interactive Filters
-![Filters](screenshots/filters.png)
+![Filters](screenshots/filters.jpg)
 
 ---
 
 ## ⚙️ Features
-- KPI Cards (Total Sales, Profit, Profit %, Transactions)  
+- KPI Cards (Sales, Profit, Profit %, Transactions)  
 - Sales Manager Performance Analysis  
 - Product-wise Profit Distribution  
 - Country-level Sales Insights  
@@ -88,16 +88,26 @@ This dashboard solves the problem by providing **centralized, visual, and intera
 
 ## 📂 Project Structure
 
-- `screenshots/` → Dashboard images  
-- `dataset/` → Raw data files  
-- `dashboard.pbix` → Power BI file  
-- `README.md` → Documentation
+- **screenshots/**
+  - dashboard_overview.jpg  
+  - kpi_cards.jpg  
+  - sales_manager_analysis.jpg  
+  - monthly_quantity.jpg  
+  - map_view.jpg  
+  - product_profit.jpg  
+  - country_sales_profit.jpg  
+  - filters.jpg  
+
+- **dataset/**  
+- **dashboard.pbix**  
+- **README.md**  
+
 ---
 
 ## ▶️ How to Use
 1. Download the `.pbix` file  
 2. Open in Power BI Desktop  
-3. Use slicers (filters) to explore data  
+3. Use filters (slicers) to explore data  
 4. Click on visuals for interactive filtering  
 
 ---
@@ -108,10 +118,9 @@ This dashboard solves the problem by providing **centralized, visual, and intera
 ---
 
 ## 📌 Conclusion
-This dashboard provides a structured and interactive way to analyze sales data.  
-It simplifies complex datasets into meaningful insights, supporting better decision-making.
+This dashboard simplifies complex sales data into intuitive visual insights, enabling better analysis and faster decision-making.
 
 ---
 
 ## ⚠️ Note
-This project is created for academic and analytical purposes.
+This project is for academic and analytical purposes.
