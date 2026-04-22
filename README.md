@@ -86,9 +86,12 @@ This dashboard solves the problem by providing **centralized, visual, and intera
 
 ---
 
-## 📂 Project Structure# interactive-sales-analytics-dashboard
-interactive-sales-analytics/ │── screenshots/ │   ├── dashboard_overview.png │   ├── kpi_cards.png │   ├── sales_manager_analysis.png │   ├── monthly_quantity.png │   ├── map_view.png │   ├── product_profit.png │   ├── country_sales_profit.png │   └── filters.png │── dataset/ │── dashboard.pbix │── README.md
+## 📂 Project Structure
 
+- `screenshots/` → Dashboard images  
+- `dataset/` → Raw data files  
+- `dashboard.pbix` → Power BI file  
+- `README.md` → Documentation
 ---
 
 ## ▶️ How to Use
