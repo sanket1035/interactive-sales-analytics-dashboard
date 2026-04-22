@@ -87,3 +87,28 @@ This dashboard solves the problem by providing **centralized, visual, and intera
 ---
 
 ## 📂 Project Structure# interactive-sales-analytics-dashboard
+interactive-sales-analytics/ │── screenshots/ │   ├── dashboard_overview.png │   ├── kpi_cards.png │   ├── sales_manager_analysis.png │   ├── monthly_quantity.png │   ├── map_view.png │   ├── product_profit.png │   ├── country_sales_profit.png │   └── filters.png │── dataset/ │── dashboard.pbix │── README.md
+
+---
+
+## ▶️ How to Use
+1. Download the `.pbix` file  
+2. Open in Power BI Desktop  
+3. Use slicers (filters) to explore data  
+4. Click on visuals for interactive filtering  
+
+---
+
+## 📎 Repository
+👉 https://github.com/sanket1035/interactive-sales-analytics-
+
+---
+
+## 📌 Conclusion
+This dashboard provides a structured and interactive way to analyze sales data.  
+It simplifies complex datasets into meaningful insights, supporting better decision-making.
+
+---
+
+## ⚠️ Note
+This project is created for academic and analytical purposes.
