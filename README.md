@@ -113,8 +113,8 @@ This dashboard provides **clear, interactive, and centralized analysis**.
 ---
 
 ## 📎 Repository
-👉 https://github.com/sanket1035/interactive-sales-analytics-
-
+[👉 https://github.com/sanket1035/interactive-sales-analytics-
+](https://github.com/sanket1035/interactive-sales-analytics-dashboard)
 ---
 
 ## 📌 Conclusion
