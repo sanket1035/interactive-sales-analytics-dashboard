@@ -1,126 +1,153 @@
-# 📊 Interactive Sales Analytics Dashboard
+# Interactive Sales Analytics Dashboard (Power BI)
 
-> A Power BI dashboard designed to analyze sales performance across products, managers, regions, and time.
+A Power BI dashboard that transforms raw sales data into actionable business insights through KPI monitoring, trend analysis, regional performance tracking, and interactive data exploration.
 
----
-
-## 🚀 Overview
-This project transforms raw sales data into meaningful insights using interactive Power BI visualizations.  
-It helps in tracking performance, comparing metrics, and identifying trends efficiently.
-
----
-
-## 📌 Problem Statement
-Sales data is complex and difficult to analyze manually. Without proper visualization:
-- Trends remain hidden  
-- Performance comparison is difficult  
-- Decision-making becomes slow  
-
-This dashboard provides **clear, interactive, and centralized analysis**.
+[![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+[![Excel](https://img.shields.io/badge/Data-Excel-217346?logo=microsoftexcel&logoColor=white)](https://www.microsoft.com/microsoft-365/excel)
+[![DAX](https://img.shields.io/badge/DAX-Measures-blue)](https://learn.microsoft.com/power-bi/)
+[![Power Query](https://img.shields.io/badge/Power%20Query-ETL-success)](https://learn.microsoft.com/power-query/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
 
-## 🎯 Objectives
-- Analyze sales across multiple dimensions  
-- Track KPIs like sales, profit, and transactions  
-- Compare performance by managers and products  
-- Enable interactive data exploration  
+## Overview
+
+This project analyzes sales data using Power BI to provide a centralized view of business performance. It enables users to monitor key metrics, compare sales across different dimensions, and identify patterns that support data-driven decision-making.
 
 ---
 
-## 🧠 Key Insights
-- 📈 Sales performance varies across **sales managers**  
-- 🛍️ Certain products generate higher profit contribution  
-- 🌍 Sales distribution differs by country  
-- 📅 Monthly trends show fluctuations in demand  
-- 🎯 Filters allow quick drill-down analysis  
+## Problem Statement
+
+Analyzing large volumes of sales data manually is time-consuming and often makes it difficult to identify meaningful trends and performance patterns. Without proper visualization:
+
+- Sales trends remain difficult to identify
+- Performance comparisons become inefficient
+- Decision-making is slower and less effective
+
+This dashboard provides a centralized and interactive solution for analyzing sales performance efficiently.
 
 ---
 
-## 📊 Dashboard Preview
+## Objectives
 
-### 🔹 Full Dashboard Overview
+- Analyze sales across multiple dimensions
+- Track key performance indicators (KPIs)
+- Compare performance by sales managers and products
+- Identify monthly and regional sales trends
+- Support data-driven business decisions
+
+---
+
+## Key Insights
+
+- Sales performance varies across different sales managers.
+- Certain products contribute more significantly to overall profit.
+- Sales distribution differs across countries.
+- Monthly sales trends highlight fluctuations in demand.
+- Interactive filters enable quick drill-down analysis.
+
+---
+
+## Dashboard Preview
+
+### Dashboard Overview
+
 ![Dashboard Overview](screenshots/dashboard_overview.jpg)
 
 ---
 
-## 📈 Detailed Analysis
+### KPI Summary
 
-### 📌 KPI Summary
-![KPI Cards](screenshots/kpi_cards.jpg)
-
-### 👥 Sales Performance by Manager
-![Sales Manager Analysis](screenshots/sales_manager_analysis.jpg)
-
-### 📅 Monthly Quantity Analysis
-![Monthly Quantity](screenshots/monthly_quantity.jpg)
-
-### 🍩 Profit Distribution by Product
-![Product Profit](screenshots/product_profit.jpg)
-
-### 🌍 Geographic Sales Distribution
-![Map View](screenshots/map_view.jpg)
-
-### 📊 Sales vs Profit by Country
-![Country Sales Profit](screenshots/country_sales_profit.jpg)
-
-### 🎛️ Interactive Filters
-![Filters](screenshots/filters.jpg)
+![KPI Summary](screenshots/kpi_cards.jpg)
 
 ---
 
-## ⚙️ Features
-- KPI Cards (Sales, Profit, Profit %, Transactions)  
-- Sales Manager Performance Analysis  
-- Product-wise Profit Distribution  
-- Country-level Sales Insights  
-- Monthly Trend Analysis  
-- Interactive Filters (Product, Manager, Date, Month, Year)  
+## Features
+
+- KPI Cards (Sales, Profit, Profit %, Transactions)
+- Sales Manager Performance Analysis
+- Product-wise Profit Distribution
+- Country-level Sales Insights
+- Monthly Trend Analysis
+- Interactive Filters (Product, Manager, Date, Month, and Year)
+- Cross-filtering across visuals
+- Interactive drill-down analysis
 
 ---
 
-## 🛠️ Tech Stack
-- Power BI Desktop  
-- Microsoft Excel  
-- Data Modeling  
+## Tech Stack
+
+- Power BI Desktop
+- Microsoft Excel
+- Power Query
+- DAX
+- Data Modeling
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
-- **screenshots/**
-  - dashboard_overview.jpg  
-  - kpi_cards.jpg  
-  - sales_manager_analysis.jpg  
-  - monthly_quantity.jpg  
-  - map_view.jpg  
-  - product_profit.jpg  
-  - country_sales_profit.jpg  
-  - filters.jpg  
-
-- **dataset/**  
-- **dashboard.pbix**  
-- **README.md**  
-
----
-
-## ▶️ How to Use
-1. Download the `.pbix` file  
-2. Open in Power BI Desktop  
-3. Use filters (slicers) to explore data  
-4. Click on visuals for interactive filtering  
+```text
+interactive-sales-analytics-dashboard/
+│
+├── dataset/
+│
+├── screenshots/
+│   ├── dashboard_overview.jpg
+│   ├── kpi_cards.jpg
+│   ├── sales_manager_analysis.jpg
+│   ├── monthly_quantity.jpg
+│   ├── map_view.jpg
+│   ├── product_profit.jpg
+│   ├── country_sales_profit.jpg
+│   └── filters.jpg
+│
+├── dashboard.pbix
+├── LICENSE
+└── README.md
+```
 
 ---
 
-## 📎 Repository
-[👉 https://github.com/sanket1035/interactive-sales-analytics-
-](https://github.com/sanket1035/interactive-sales-analytics-dashboard)
+## Getting Started
+
+1. Clone this repository.
+
+```bash
+git clone https://github.com/sanket1035/interactive-sales-analytics-dashboard.git
+```
+
+2. Open `dashboard.pbix` using **Power BI Desktop**.
+3. Explore the dashboard using the available filters and slicers.
+4. Click on visuals to perform cross-filtering and detailed analysis.
+
 ---
 
-## 📌 Conclusion
-This dashboard simplifies complex sales data into intuitive visual insights, enabling better analysis and faster decision-making.
+## Conclusion
+
+This project demonstrates how Power BI can transform raw sales data into interactive visual analytics, helping users monitor KPIs, identify trends, compare performance, and make informed business decisions.
 
 ---
 
-## ⚠️ Note
-This project is for academic and analytical purposes.
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+Copyright © 2026 [Sanket Chaudhari](https://github.com/sanket1035)
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+---
+
+## Author
+
+**Sanket Chaudhari**
+
+- GitHub: https://github.com/sanket1035
+- LinkedIn: https://www.linkedin.com/in/sanketchaudhari1035/
+
+---
+
+## Note
+
+This project is intended for academic and analytical purposes.
